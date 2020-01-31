@@ -13,12 +13,7 @@ export class CalcComponent {
   public add() {
     if (this.number1 == null && this.number2 == null) {
       this.result = 0;
-    } else if (this.number1 == null) {
-      this.result = this.number2;
-    }
-    else if (this.number2 == null) {
-      this.result = this.number1;
-    }
+    } 
     else {
       this.result = this.number1 + this.number2;
     }
